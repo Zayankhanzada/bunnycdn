@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.svg">
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--font faimly-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!--Font-awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Home | Bunny</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand " href="#">
+                <img src="/assets/images/bunny-logo.svg" class="w-50" alt="Logo">
+            </a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Offcanvas -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header px-3">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/assets/images/favicon.svg" alt="">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-4">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fs-18" href="/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  fs-18" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/contact.html">Contact</a>
+                        </li>
+                        <div class="d-flex flex-lg-row flex-column justify-content-center column-gap-4">
+                            <a class="btn btn-success fw-semibold  fs-18 rounded-0 mt-4">BOOK A MEETING</a>
+                            <a
+                                class="btn btn-success fw-semibold d-flex justify-content-center gap-2 align-items-center rounded-0 mt-4">
+                                <i class="fa-brands fa-upwork"></i><span class=" fs-18">START A CONTRACT</span>
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- Navbar links for larger screens -->
+            <div class="collapse navbar-collapse justify-content-end p-3 " id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-4 ">
+
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-white " href="/">Network</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-white " href="/">Pricing</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-white " href="/">Products</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-white " href="/">Solutions</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-white " href="/"> Resources</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav-button d-none d-lg-flex gap-2"> <!-- Hide on smaller screens -->
+                <a class="btn bg-transparent text-white btn-outline-light  rounded-3">Log in</a>
+                <a class="btn btn-primary  rounded-3">Get Started</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero-section -->
+    <section class="hero-section position-relative ">
+        <div class="container py-20 ">
+            <div class="row p-0 ">
+                <div class=" col-12 col-lg-8 pe-4">
+                    <h1 class=" fw-bold text-white  ">
+                        The Global Content Delivery Platform That Truly Hops
+                    </h1>
+                    <p class="text-white pt-2 pt-lg-5 fs-24">
+                        Speed up your content with our next-generation CDN, Edge Storage and Optimization Services.
+                        bunny.net makes lightning fast performance at any scale easier than ever before.
+                    </p>
+                    <div class=" d-flex flex-column justify-content-start align-items-start row-gap-3 pt-4 pt-lg-5">
+                        <a href=""
+                            class=" btn-primary d-flex gap-4 align-items-center fw-semibold fs-24 rounded-2 text-white text-decoration-none "><span
+                                class=""> Try FREE for 14 days</span>
+                            <i class="fa-solid fa-angles-right"></i></a>
+                        <p class="text-white fs-14 fw-medium">Set-up in 5 minutes. No Credit Card required.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- rated-section -->
+    <section class="rated-section position-relative w-100">
+        <div class="container pt-4 ">
+            <div class="row flex-row justify-content-between align-items-center position-relative   ">
+                <div class="col-12 col-lg-9 d-lg-block d-none ">
+                    <h2 class="fs-24 text-white">
+                        Join over 1.000.000+ websites already powered by bunny.net
+                    </h2>
+                    <p class="text-skyblue">Our dedication to quality has won the trust of many well known brands in
+                        their
+                        industries.</p>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="d-flex flex-column align-items-center ">
+                        <h3 class="d-flex align-items-center flex-row gap-2 "> <span class="fs-20 text-white">We're rated</span><i
+                            class="fa fa-star text-center text-white bg-success rounded-2 fs-6 p-1 d-lg-none"></i></h3>
+                        <div class="d-lg-flex d-none flex-wrap justify-content-center mt-2  gap-1">
+                            <a href="" class=""><i
+                                    class="fa fa-star text-center text-white bg-success rounded-2 fs-5 p-1"></i></a>
+                            <a href="" class=""><i
+                                    class="fa fa-star text-center text-white bg-success rounded-2 fs-5 p-1"></i></a>
+                            <a href="" class=""><i
+                                    class="fa fa-star text-center text-white bg-success rounded-2 fs-5 p-1"></i></a>
+                            <a href="" class=""><i
+                                    class="fa fa-star text-center text-white bg-success rounded-2 fs-5 p-1"></i></a>
+                            <a href="" class=""><i
+                                    class="fa fa-star text-center text-white bg-success rounded-2 fs-5 p-1"></i></a>
+                        </div>
+                        <p class="text-white fw-medium pt-3">4.8 out of 5 based on 700+ reviews</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>  
+     <!-- brands section -->
+    <section class="brands-section ">
+        <div class="container py-11">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg-10">
+                    <h2 class="fs-45 text-center text-blue fw-bold">We've helped amazing companies hop faster!</h2>
+                </div>
+            </div>
+            <div class="row flex-row flex-wrap pt-5">
+                <div class="col-12 ">
+                    <div class="d-flex flex-row flex-wrap justify-content-center text-center align-items-center gap-5">
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/hyundai-logo.svg" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/unicorn-logo.svg" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/Tcl-logo.svg" class="w-90" alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/astra-logo.svg" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/optimonster-logo.svg" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/nexusmods-logo.webp" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/nitropack-logo-svg.svg" class="w-90" alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/alologo-.svg" class="w-90" alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/belka-games-logo.webp" class="w-90" alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/appsumo-logo.webp" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/shortpixel-logo.webp" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/streamable-logo.webp" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/playposit-logo.webp" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/comiccon-logo.webp" class="w-90" alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/floatplane-logo.webp" class="w-200 " alt="">
+                        </div>
+                        <div class="logo-wrapper">
+                            <img src="/assets/images/reloadedtech-logo.webp" class="w-200 " alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- edge-section -->
+    <section class="edge-section position-relative  ">
+        <div class="container position-relative py-11">
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <h2 class="text-blue text-center fw-bold fs-45">Hop to the edge and never look back</h2>
+                    <p class="fs-24 text-blue text-center  pt-4">Experience unparalleled performance without compromise.
+                    </p>
+                </div>
+            </div>
+            <div class="row flex-row justify-content-between  pt-4 pt-lg-5 first-row">
+                <div class=" col-12 col-lg-5">
+                    <div class="card bg-white border-0 d-flex align-items-center flex-row gap-5  ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/products-globe.svg" class="" alt="">
+                        </div>
+                        <div class="">
+                            <h4 class="fs-20 text-blue fw-bold">CDN</h4>
+                            <p class="fs-18 pt-1 text-blue">Supercharge your content on a truly global scale.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-5 mt-3 mt-lg-0 mx-28">
+                    <div class="card bg-white border-0 d-flex flex-row gap-5 ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/bunny-optimizer.svg" class="" alt="">
+                        </div>
+                        <div class="">
+                            <h4 class="fs-20 text-blue fw-bold">Optimizer</h4>
+                            <p class="fs-18 text-blue pt-1">Optimize your website with a click of a button.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-row flex-wrap  gap-2 pt-3 pt-lg-5 seceond-row">
+                <div class=" col-12 col-lg-4">
+                    <div class="card bg-white border-0 d-flex align-items-center flex-row gap-5  ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/bunny-storage-icon.svg" class="" alt="">
+                        </div>
+                        <div class="">
+                            <h4 class="fs-20 text-blue fw-bold">Storage</h4>
+                            <p class="fs-18 pt-1 text-blue">Experience hot object storage, replicated around the world.
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-5 mt-3 mt-lg-0 mx-39">
+                    <div class="card bg-white border-0 d-flex align-items-center flex-row gap-5  ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/bunny-dns-icon.svg" class="" alt="">
+                        </div>
+                        <div class="">
+                            <h4 class="fs-20 text-blue fw-bold">DNS</h4>
+                            <p class="fs-18 pt-1 text-blue">Unlock the true power of DNS across your infrastructure.
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-row flex-wrap align-items-center pt-3 pt-lg-5 third-row">
+                <div class=" col-12 col-lg-4">
+                    <div class="card bg-white border-0 d-flex align-items-center flex-row gap-5 ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/bunny-stream-icon.svg" class="" alt="">
+                        </div>
+                        <div class="">
+                            <h4 class="fs-20 text-blue fw-bold">Stream</h4>
+                            <p class="fs-18 pt-1 text-blue">Take your video delivery to the next level.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-5 mt-3 mt-lg-0 mx-31">
+                    <div class="card bg-white border-0 d-flex align-items-center flex-row gap-5 ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/bunny-load-balancer-icon.svg" class="" alt="">
+                        </div>
+                        <div class="">
+                            <a class=" d-flex align-items-center gap-2 pt-3 text-decoration-none" href="">
+                                <span class="fs-20 text-blue fw-bold ">Load Balancer</span>
+                                <span class="badge p-2 bg-dark text-white fw-normal ">Coming Soon</span>
+                            </a>
+                            <p class="fs-18 pt-1 text-blue">Maximize application performance and scalability.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <img src="/assets/images/bunny-products.svg"
+                class=" background-image position-absolute img-fluid d-lg-flex d-none" alt="">
+        </div>
+    </section>
+    <!-- value section -->
+    <section class="value-section mt-70 ">
+        <div class="container ">
+            <div
+                class="d-flex flex-lg-row justify-content-center bg-lg-transparent  p-4 rounded-3  flex-column gap-4 pb-5">
+                <div class="col-12 col-lg-3">
+                    <div class="card bg-transparent text-center border-0 ">
+                        <h3 class="fs-30 text-blue fw-bold">123</h3>
+                        <p class=" fs-24 text-blue ">Edge Locations</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card bg-transparent text-center pt-4 pt-lg-0  border-0">
+                        <h3 class="fs-30 text-blue fw-bold "> 650.000+</h3>
+                        <p class="text-blue fs-24">Requests Per Second</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card bg-transparent text-center pt-4 pt-lg-0 border-0">
+                        <h3 class=" fs-30 text-blue fw-bold">150 Tbps+</h3>
+                        <p class="text-blue fs-24 ">Network Capacity</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card bg-transparent text-center pt-4 pt-lg-0 border-0">
+                        <h3 class="fs-30 text-blue fw-bold">24 ms</h3>
+                        <p class="text-blue fs-24 ">Avg. Worldwide Latency</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+    <!-- speed-section -->
+    <section class="speed-section">
+        <div class="container py-11 position-relative">
+            <div
+                class="row p-5 flex-lg-row flex-column-reverse flex-nowrap justify-content-between align-items-center position-relative rounded-4 bg-blue">
+                <div class="col-12 col-lg-5">
+                    <div class="d-flex flex-column justify-content-start align-items-start  gap-3">
+                        <h2 class="text-white fw-bold fs-30">Join and start hopping at the speed of light</h2>
+                        <a href=""
+                            class="btn-primary d-flex gap-4 align-items-center fw-semibold fs-24 rounded-2 text-decoration-none "><span
+                                class="text-white"> Try FREE for 14 days</span>
+                            <i class="fa-solid fa-angles-right text-white "></i></a>
+                        <p class="text-white fw-medium">No credit card required – Get started in just a few clicks</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 position-relative">
+                    <div class="image-wrapper position-relative">
+                        <img src="/assets/images/speed-section-image.svg" class="w-100 " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- perfomance section -->
+    <secton class="perfomance-section">
+        <div class="container py-11">
+            <div class="row flex-row justify-content-between align-items-center ">
+                <div class="col-12 col-lg-5">
+                    <div class="d-flex flex-column gap-4">
+                        <h2 class="text-blue fs-45 fw-bold">Amazing performance. Every single time.</h2>
+                        <p class="text-blue fs-20">Hop on one of the fastest global networks in the world. Supercharge
+                            your website speeds beyond its limits and deliver the best possible experience for your
+                            visitors. Enterprise-grade performance at the most affordable price on the market!</p>
+                        <div
+                            class="d-flex justify-content-between align-items-baseline column-gap-5 flex-row flex-wrap">
+                            <div class="col-12 col-lg-5">
+                                <p class=" d-flex gap-3 align-items-center pt-4 fs-5 fw-semibold"><i
+                                        class="fa-regular bg-yellow rounded-5 fa-circle-check"></i>From $1/month.</p>
+                                <p class=" d-flex gap-3 align-items-center pt-4 fs-5 fw-semibold"><i
+                                        class="fa-regular   bg-yellow rounded-5 fa-circle-check"></i>Perma-Caching.</p>
+                                <p class=" d-flex gap-3 align-items-center pt-4 fs-5 fw-semibold"><i
+                                        class="fa-regular bg-yellow rounded-5 fa-circle-check"></i>DDoS Protection.</p>
+                            </div>
+                            <div class="col-12 col-lg-5">
+                                <p class=" d-flex gap-3 align-items-center pt-4 fs-5 fw-semibold"><i
+                                        class="fa-regular bg-yellow rounded-5 fa-circle-check"></i>No Hidden Fees.</p>
+                                <p class=" d-flex gap-3 align-items-center pt-4 fs-5 fw-semibold text-nowrap"><i
+                                        class="fa-regular bg-yellow rounded-5 fa-circle-check"></i>Real-Time Monitoring.
+                                </p>
+                                <p class=" d-flex gap-3 align-items-center pt-4 fs-5 fw-semibold text-nowrap"><i
+                                        class="fa-regular bg-yellow rounded-5 fa-circle-check"></i>Free SSL Certificate.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 position-relative">
+                    <div class="d-flex flex-row  flex-wrap row-gap-4">
+                        <div class="col-12 col-lg-5 d-flex">
+                            <div class="card d-flex justify-content-between flex-column p-3">
+                                <div class="image-wrapper ">
+                                    <img src="/assets/images/scalable-image.svg" class="" alt="">
+                                </div>
+                                <div class="card-body p-0 pt-5">
+                                    <h4 class="text-blue fs-20 fw-bold">Scalable By Design</h4>
+                                    <p class="text-blue  fs-18 pt-3">Maximize your growth and expansion without care
+                                        with a 150 Tbps+
+                                        network.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex mx-0 mx-lg-3">
+                            <div class="card d-flex justify-content-between flex-column p-3 ">
+
+                                <div class="image-wrapper ">
+                                    <img src="/assets/images/scalable-image.svg" class="" alt="">
+                                </div>
+
+                                <div class="card-body p-0 pt-5">
+                                    <h4 class="text-blue fs-20 fw-bold">Tier 1 Global Network</h4>
+                                    <p class="text-blue fs-18 pt-3">Connect directly to your users with over 3000 ISPs
+                                        and 14 Tier 1 transit providers. Anywhere..</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex">
+                            <div class="card d-flex justify-content-between flex-column p-3">
+                                <div class="image-wrapper">
+                                    <img src="/assets/images/scalable-image.svg" class="" alt="">
+                                </div>
+                                <div class="card-body p-0 pt-5">
+                                    <h4 class="text-blue fs-20 fw-bold">NVMe+ SSD Servers</h4>
+                                    <p class="text-blue fs-18 pt-3">Optimize delivery and reduce latency with top of the
+                                        line AMD and NVMe hardware.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex mx-0 mx-lg-3">
+                            <div class="card d-flex justify-content-between flex-column p-3 ">
+                                <div class="image-wrapper">
+                                    <img src="/assets/images/scalable-image.svg" class="" alt="">
+                                </div>
+                                <div class="card-body p-0 pt-5">
+                                    <h4 class="text-blue fs-20 fw-bold">Stay Protected</h4>
+                                    <p class="text-blue fs-18 pt-3">Stay safe and focused with a built-in
+                                        next-generation DDoS protection that just works.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secton>
+    <!--happy-customer-section -->
+    <section class="happy-customer-section">
+        <div class="container py-11">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-12">
+                    <h2 class="fs-54 text-blue fw-bold">Join over 40.000+ happy customers</h2>
+                    <p class="fs-20 text-blue pt-3">We're rated <i
+                            class="fa fa-star text-center text-white bg-success rounded-1 fs-5 p-1"></i>
+                        <strong>Excellent 4.8</strong> out of 5 on <a href="/" class="text-success"
+                            target="">Trustpilot</a> - Based on <strong>700+ reviews</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card-container position-relative mb-5">
+            <div class="card-wrapper d-flex ">
+                <div class="row row-cols-lg-5 row-cols-3 flex-row flex-nowrap">
+                    <div class="d-flex">
+                        <div class="card p-4 d-flex align-items-baseline flex-column rounded-4 border-0 ">
+                            <div class="">
+                                <h4 class="text-blue fw-semibold"> Alex</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">BunnyCDN is truly exceptional</h4>
+                                <p class="pt-2">BunnyCDN is truly exceptional. It outperforms famous CDN providers in
+                                    speed, and it's cheaper.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="card p-4 d-flex align-items-baseline border-0 flex-column rounded-4 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Laurent Bertin</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20"> If you hesitate, don't.</h4>
+                                <p class="pt-2">Great price. Great service. Great support. Migrated all my videos from
+                                    vimeo and it works better, and like 240 audios from AWS and it costs less and works
+                                    faster.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="card p-4 d-flex align-items-baseline border-0 flex-column rounded-4 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold"> Brian Jinwright</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Edge Rules, Bunny Optimizer, Volume Pricing, and Scalable
+                                    Storage</h4>
+                                <p class="pt-2">Edge Rules, Bunny Optimizer, Volume Pricing, and Scalable Storage. I
+                                    think BunnyCDN is the best-kept secret in the CDN and cloud marketplace.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex ">
+                        <div class="card p-4 d-flex align-items-baseline border-0 flex-column rounded-4 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold"> Ronei de Sousa Almeida</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Great CDN Service</h4>
+                                <p class="pt-2"> did the test, I liked it a lot and I'm using it. It has easy
+                                    configuration, great features and affordable price. Very good!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex ">
+                        <div class="card p-4 d-flex  align-items-baseline border-0 flex-column rounded-4 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold"> Brian Jinwright</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Edge Rules, Bunny Optimizer, Volume Pricing, and Scalable
+                                    Storage</h4>
+                                <p class="pt-2">Edge Rules, Bunny Optimizer, Volume Pricing, and Scalable Storage. I
+                                    think BunnyCDN is the best-kept secret in the CDN and cloud marketplace.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex ">
+                        <div class="card p-4 d-flex align-items-baseline border-0 flex-column rounded-4 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold"> Brian Jinwright</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Edge Rules, Bunny Optimizer, Volume Pricing, and Scalable
+                                    Storage</h4>
+                                <p class="pt-2">Edge Rules, Bunny Optimizer, Volume Pricing, and Scalable Storage. I
+                                    think BunnyCDN is the best-kept secret in the CDN and cloud marketplace.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper  d-none d-lg-flex">
+                <div class="row row-cols-lg-5 row-cols-3 flex-row flex-nowrap p-0 column-gap-0 pt-5">
+                    <div class="d-flex">
+                        <div class="card p-4 d-flex align-items-baseline flex-column rounded-4 border-0">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Shane Bishop</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Great range of features</h4>
+                                <p class="pt-2">Great range of features, fantastic pricing, and even better support.
+                                    They are very responsive to suggestions and improvements for the platform, and are
+                                    constantly working to make it better.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="card p-4 d-flex align-items-baseline flex-column rounded-4  border-0 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Edwin Pardo</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">After having tried multiple platforms BunnyCDN is
+                                    undoubtedly the fastest but also the best priced</h4>
+                                <p class="pt-2">After having tried multiple platforms, BunnyCDN is undoubtedly not only
+                                    the fastest but also the best priced. They also have a support service that handles
+                                    requests very quickly, 100% recommended.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="card p-4 d-flex align-items-baseline flex-column rounded-4 border-0 border-0 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Afonso</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Best CDN in terms of price/quality</h4>
+                                <p class="pt-2">Best cdn in terms of price/quality. Excellent support. I've been using
+                                    it on my sites for over 1 year and it has evolved a lot.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="card p-4 d-flex  align-items-baseline flex-column rounded-4 border-0 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Garry</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Absolutely Amazing</h4>
+                                <p class="pt-2">Absolutely Amazing! Easy to set up with just a few clicks... Great
+                                    overall performance and super cheap. What I like most is easy to Install SSL
+                                    certificate for the custom hostname which takes like 2 clicks. Using it for more
+                                    than a year and have nothing negative to say.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="card p-4 d-flex align-items-baseline flex-column rounded-4 border-0">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Emmanuelhiggins</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Would highly recommend</h4>
+                                <p class="pt-2">Would highly recommend. Couldn't ask for anything more. Chose because it
+                                    was one of the fastest CDNs for my part of the world (Australia). Thanks, Bunnies!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="card p-4 d-flex align-items-baseline flex-column rounded-4 border-0 ">
+                            <div class="">
+                                <h4 class="text-dark fw-semibold">Emmanuelhiggins</h4>
+                                <p class="ratings d-flex flex-row column-gap-2 fs-20 pt-4">
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                    <i class="fa-solid fa-star text-yellow"></i>
+                                </p>
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="text-blue fs-20">Would highly recommend</h4>
+                                <p class="pt-2">Would highly recommend. Couldn't ask for anything more. Chose because it
+                                    was one of the fastest CDNs for my part of the world (Australia). Thanks, Bunnies!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- Supercharge section -->
+    <section class="supercharge-section d-none d-lg-block">
+        <div class="container py-11">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-12">
+                    <h2 class="fs-45 text-blue fw-bold">Supercharge your internet presence</h2>
+                    <p class="fs-24 text-blue pt-4">Next-Generation Solutions. Next-Level Performance.</p>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs d-flex justify-content-center align-items-center flex-nowrap border-0 mt-5"
+                id="myTab" role="tablist">
+                <li class="nav-item " role="presentation">
+                    <a class="nav-link active  bg-transparent  d-flex align-items-center gap-2" id="secure-auth-tab"
+                        data-bs-toggle="tab" href="#secure-auth" role="tab" aria-controls="secure-auth"
+                        aria-selected="true"> <img src="/assets/images/rocket.svg" class="h-22" alt=""><span
+                            class="text-blue fs-18">Website
+                            Accelration</span></a>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <a class="nav-link bg-transparent d-flex gap-2 align-items-center" id="scim-provisioning-tab"
+                        data-bs-toggle="tab" href="#scim-provisioning" role="tab" aria-controls="scim-provisioning"
+                        aria-selected="false"><img src="/assets/images/play-button.svg" class="h-22" alt=""><span
+                            class="text-blue fs-18">Vedio Delivery</span></a>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <a class="nav-link bg-transparent d-flex align-items-center gap-2" id="domain-control-tab"
+                        data-bs-toggle="tab" href="#domain-control" role="tab" aria-controls="domain-control"
+                        aria-selected="false"><img src="/assets/images/server-icon.svg" class="h-22" alt=""><span
+                            class="text-blue fs-18">Software Distribution</span></a>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <a class="nav-link bg-transparent d-flex align-items-center gap-2" id="privacy-security-tab"
+                        data-bs-toggle="tab" href="#privacy-security" role="tab" aria-controls="privacy-security"
+                        aria-selected="false"><img src="/assets/images/image-compression-icon.svg" alt=""
+                            class="h-22"><span class="text-blue fs-18">Dynamic Image Processing</span></a>
+                </li>
+
+            </ul>
+
+            <div class="tab-content pt-5" id="myTabContent">
+                <div class="tab-pane fade show active" id="secure-auth" role="tabpanel"
+                    aria-labelledby="secure-auth-tab">
+                    <div
+                        class="row box flex-lg-row flex-column-reverse justify-content-center align-items-center p-2 p-lg-4 gap-4">
+                        <div class="col-12 col-lg-5">
+                            <h4 class="fs-30 fw-bold text-blue pt-4">Make your website hop like a bunny
+                            </h4>
+
+                            <div class="">
+                                <p class="fs-18 text-blue pt-4">Turn your website from a snail into a bunny. Deliver the
+                                    best possible experience to your users with our global CDN and optimizer service.
+                                    Speed up your website and hop ahead of the competition.</p>
+                            </div>
+
+                            <a
+                                class=" btn btn-blue d-inline-flex align-items-center mt-4 text-decoration-none gap-2 pt-3 text-white">
+                                <span class="fs-20 fw-semibold text-white">Supercharge Your Website</span>
+                                <i class="fa-solid fa-angles-right fs-20"></i>
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="image-wrapper align-items-end">
+                                <img src="/assets/images/supercharge-section-1.svg" class="img-fluid h-50" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="scim-provisioning" role="tabpanel"
+                    aria-labelledby="scim-provisioning-tab">
+
+                    <div
+                        class="row box flex-lg-row flex-column-reverse justify-content-center align-items-center p-4 gap-5">
+                        <div class="col-12 col-lg-4">
+                            <h4 class="fs-30 fw-bold text-blue pt-4">Reliable video CDN that truly hops</h4>
+
+                            <div class="">
+                                <p class="fs-18 text-blue pt-4">
+                                    Solve the hassle of video delivery by packing transcoding, storage, security, and
+                                    video player into a powerful but straightforward package. Stream anywhere. Without
+                                    buffering!</p>
+                            </div>
+
+                            <a
+                                class=" btn btn-blue d-inline-flex align-items-center mt-4 text-decoration-none gap-2 pt-3 text-white">
+                                <span class="fs-20 fw-semibold text-white">Unforgettable Video Experience</span>
+                                <i class="fa-solid fa-angles-right fs-20"></i>
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-4 mx-4">
+                            <div class="image-wrapper">
+                                <img src="/assets/images/supercharge-section-2.svg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="domain-control" role="tabpanel" aria-labelledby="domain-control-tab">
+                    <div
+                        class="row box flex-lg-row flex-column-reverse justify-content-center align-items-center p-4 gap-5">
+                        <div class="col-12 col-lg-4">
+                            <h3 class="fs-30 text-blue fw-bold pt-4">Deliver lightning fast downloads</h4>
+
+                                <div class="">
+                                    <p class="fs-18 pt-4 text-blue">
+                                        Turn your website from a snail into a bunny. Deliver the best possible
+                                        experience to your users with our global CDN and optimizer service. Speed up
+                                        your website and hop ahead of the competition.</p>
+                                </div>
+
+                                <a
+                                    class="btn btn-blue d-inline-flex align-items-center mt-4 text-decoration-none gap-2 pt-3 text-white">
+                                    <span class="fs-20 fw-semibold text-white">Deliver Faster Downloads</span>
+                                    <i class="fa-solid fa-angles-right fs-20"></i>
+                                </a>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="image-wrapper ">
+                                <img src="/assets/images/supercharge-section-3.svg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="privacy-security" role="tabpanel" aria-labelledby="privacy-security-tab">
+                    <div
+                        class="row box flex-lg-row flex-column-reverse justify-content-center align-items-center p-4 gap-5">
+                        <div class="col-12 col-lg-4">
+                            <h4 class="fs-30 text-blue fw-bold pt-4">Transform your images. On the fly.</h4>
+
+                            <div class="">
+                                <p class="fs-18 text-blue pt-4">Resize, crop, sharpen, and transform images on the fly
+                                    with an ultra-fast processing engine running on 123 datacenters worldwide. Simplify
+                                    development & optimize SEO by reducing image size by up to 80%.</p>
+                            </div>
+                            <a
+                                class="btn btn-blue d-inline-flex align-items-center mt-4 text-decoration-none gap-2 pt-3 text-white">
+                                <span class="fs-20 fw-semibold text-white">Optimize Your Images</span>
+                                <i class="fa-solid fa-angles-right fs-20"></i>
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-4 mx-5">
+                            <div class="image-wrapper">
+                                <img src="/assets/images/supercharge-section-4.svg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+    <!-- Supercharge-section for smaller screens -->
+    <section class="Supercharge-section d-lg-none">
+        <div class="container py-11">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-12">
+                    <h2 class="fs-45 text-blue fw-bold">Supercharge your internet presence</h2>
+                    <p class="fs-24 text-blue pt-4">Next-Generation Solutions. Next-Level Performance.</p>
+                </div>
+            </div>
+            <div
+                class="row box flex-lg-row flex-column justify-content-center align-items-center p-2 p-lg-4 gap-4 mt-5 mx-1 mx-lg-0 rounded-4">
+                <div class="col-10">
+                    <h3 class="text-yellow text-center pt-4 fs-20">Website Accelration</h3>
+                    <h4 class="fs-30 fw-bold text-blue text-lg-start text-center ">Make your website hop like a bunny
+                    </h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="image-wrapper align-items-end">
+                        <img src="/assets/images/supercharge-section-1.svg" class="img-fluid h-50" alt="">
+                    </div>
+                    <p class="fs-18 text-blue text-lg-start text-center pt-4">Turn your website from a snail into a
+                        bunny. Deliver the
+                        best possible experience to your users with our global CDN and optimizer service.
+                        Speed up your website and hop ahead of the competition.</p>
+                    <div class="d-flex justify-content-center align-items-center my-3">
+                        <a class=" btn btn-blue fs-20 fw-semibold text-white text-decoration-none">
+                            <span class="">Supercharge Your Website</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="row box flex-lg-row flex-column justify-content-center align-items-center p-4 gap-5 rounded-4 mx-1 mt-4 ">
+                <div class="col-12">
+                    <h3 class="text-yellow text-center fs-20 pt-4">Vedio Delivery</h3>
+                    <h4 class="fs-30 fw-bold text-blue text-center ">Reliable video CDN that truly hops</h4>
+
+                </div>
+                <div class="col-12">
+                    <div class="image-wrapper">
+                        <img src="/assets/images/supercharge-section-2.svg" class="img-fluid" alt="">
+                        <p class="fs-18 text-blue text-center pt-4">
+                            Solve the hassle of video delivery by packing transcoding, storage, security, and
+                            video player into a powerful but straightforward package. Stream anywhere. Without
+                            buffering!</p>
+
+                        <div class="d-flex justify-content-center align-items-center mt-4">
+                            <a class=" btn btn-blue fs-20 fw-semibold text-white text-decoration-none">No more
+                                Buffering</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div
+                class="row box flex-lg-row flex-column justify-content-center align-items-center p-4 gap-5 mx-1 rounded-4 mt-4">
+                <div class="col-12">
+                    <h4 class="fs-20 text-yellow text-center pt-4">Software Distribution</h4>
+                    <h3 class="fs-30 text-blue text-center fw-bold ">Deliver lightning fast downloads</h4>
+                </div>
+                <div class="col-12">
+                    <div class="image-wrapper text-center ">
+                        <img src="/assets/images/supercharge-section-3.svg" class="img-fluid" alt="">
+                    </div>
+                    <p class="fs-18 pt-4 text-blue text-center">
+                        Turn your website from a snail into a bunny. Deliver the best possible
+                        experience to your users with our global CDN and optimizer service. Speed up
+                        your website and hop ahead of the competition.</p>
+
+                    <div class="d-flex justify-content-center align-items-center  mt-4">
+                        <a class="btn btn-blue text-decoration-none fs-20 fw-semibold text-white text-white">Faster
+                            Downloads</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row box flex-lg-row flex-column justify-content-center align-items-center p-4 gap-5 mt-4 mx-1">
+                <div class="col-12">
+                    <h3 class="fs-20 text-yellow text-center pt-4">Dynamic Image Processing</h3>
+                    <h4 class="fs-30 text-blue fw-bold text-center">Transform your images. On the fly.</h4>
+                </div>
+                <div class="col-12">
+                    <div class="image-wrapper">
+                        <img src="/assets/images/supercharge-section-4.svg" class="img-fluid" alt="">
+                    </div>
+                    <p class="fs-18 text-blue text-center pt-4">Resize, crop, sharpen, and transform images on the fly
+                        with an ultra-fast processing engine running on 123 datacenters worldwide. Simplify
+                        development & optimize SEO by reducing image size by up to 80%.</p>
+                    <div class="d-flex justify-content-center align-items-center mt-4">
+                        <a class="btn btn-blue fs-20 fw-semibold text-white text-decoration-none">Optimize Your
+                            Images</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- trial section -->
+    <section class="trial-section">
+        <div class="container py-11 mb-5">
+            <div class="row flex-column text-center text-white">
+                <div class="col-12">
+                    <h2 class="fs-45 fw-bold">Start Your 14 Day Free Trial</h2>
+                    <p class="fs-24 pt-4">Supercharge your Web Applications and Hop ahead of the Competition.</p>
+                    <div class="d-flex justify-content-center align-items-center pt-4">
+                        <a
+                            class=" btn-primary d-inline-flex justify-content-center align-items-center  text-white rounded-2 gap-4 text-decoration-none">
+                            <span class="fs-24 fw-semibold  ">Start FREE Trial</span>
+                            <i class="fa-solid fa-angles-right fs-24"></i>
+                        </a>
+                    </div>
+                    <p class="pt-4 text-lightprimary fs-14">No credit card required – Complete Registration in under 2
+                        minutes.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container py-11 position-relative">
+            <div class="row row-gap-5 align-items-baseline">
+                <div class="col-6 col-lg-2">
+                    <div class="">
+                        <img src="/assets/images/footer-logo.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="footer-links d-flex flex-column mt-4 row-gap-2">
+                        <a href="" class="text-blue fs-18 ">About Us</a>
+                        <a href="" class="text-blue fs-18">Bunny Blog</a>
+                        <a href="" class="text-blue fs-18">Bunny Careers</a>
+                        <a href="" class="text-blue fs-18">Case Studies</a>
+                        <a href="" class="text-blue fs-18">Affiliate Program</a>
+                        <a href="" class="text-blue fs-18">Bunny Academy</a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4 class="fs-24 text-blue fw-semibold">Products</h4>
+                    <div class="footer-links d-flex flex-column row-gap-2 mt-4">
+                        <a href="" class="text-blue fs-18 ">Bunny CDN</a>
+                        <a href="" class="text-blue fs-18">Bunny Optimizer</a>
+                        <a href="" class="text-blue fs-18">Bunny Storage</a>
+                        <a href="" class="text-blue fs-18">Bunny Stream</a>
+                        <a href="" class="text-blue fs-18">Bunny DNS</a>
+                        <a href="" class="text-blue fs-18">Bunny Fonts</a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4 class="fs-24 fw-semibold text-blue">Developers</h4>
+                    <div class="footer-links d-flex flex-column row-gap-2 mt-4">
+                        <a href="" class="text-blue fs-18 ">Network Map</a>
+                        <a href="" class="text-blue fs-18">Bunny Features</a>
+                        <a href="" class="text-blue fs-18">Network Tools</a>
+                        <a href="" class="text-blue fs-18">Developer Hub</a>
+                        <a href="" class="text-blue fs-18">API Documentation</a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4 class="fs-24 text-blue fw-semibold">Support</h4>
+                    <div class="footer-links d-flex flex-column row-gap-2 mt-4">
+                        <a href="" class="text-blue fs-18">SLA</a>
+                        <a href="" class="text-blue fs-18">Support HUB</a>
+                        <a href="" class="text-blue fs-18">Super Bunnies™</a>
+                        <a href="" class="text-blue fs-18">Service Status</a>
+                        <a href="" class="text-blue d-inline-flex gap-2 align-items-center fs-18">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class=""> hello@bunny.net</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row gap-5 flex-lg-row flex-column mt-5 pt-5 align-items-baseline ">
+                <div class="bunny-image ">
+                    <img src="/assets/images/footer-image.svg" class="img-fluid position-absolute end-0 bottom-0 "
+                        alt="">
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="d-flex flex-column">
+                        <h4 class="text-blue fs-24 fw-bold">Big traffic? Talk to Sales</h4>
+                        <p class="text-blue mt-4 fs-18">Working on a big project?</p>
+                        <p class="text-blue fs-18">Let our experts help you out.</p>
+                        <div class="footer-links mt-5">
+                            <a href="" class="text-blue d-inline-flex gap-2 align-items-center fs-18">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class=""> hello@bunny.net</span></a>
+                            <a href="" class="text-blue d-inline-flex gap-2 align-items-center fs-18 mx-lg-0 mx-3">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class="">+1-339-300-4270</span></a>
+                        </div>
+                        <div class="">
+                            <a
+                                class=" btn-primary d-inline-flex justify-content-center align-items-center mt-5 text-white rounded-2 gap-4 text-decoration-none">
+                                <span class="fs-20">Contact Sales</span>
+                                <i class="fa-solid fa-angles-right fs-24"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <h4 class="text-blue fw-semibold fs-24">Stay up to date with bunny.net</h4>
+                    <p class="text-blue mt-4 fs-18">Follow us on social media for special</p>
+                    <p class="text-blue fs-18">promotions and important news.</p>
+                    <div class="d-flex align-items-center gap-4 mt-5">
+                        <a href=""
+                            class="d-inline-flex justify-content-center align-items-center text-dark bg-blue rounded-3 p-3 icon"><i
+                                class="fab fa-facebook-f bg-transparent text-white fs-24"></i></a>
+                        <a href=""
+                            class="d-inline-flex justify-content-center align-items-center text-dark bg-blue rounded-3 p-3 icon"><i
+                                class="fab fa-twitter bg-transparent text-white fs-24"></i></a>
+                        <a href=""
+                            class="d-inline-flex justify-content-center align-items-center text-dark bg-blue rounded-3 p-3 icon"><i
+                                class="fab fa-linkedin-in text-white fs-24"></i></a>
+                    </div>
+                    <h4 class="fs-30 fw-bold text-blue mt-5 slogan">~ Making the internet hop faster!</h4>
+                </div>
+            </div>
+        </div>
+        <section class="copyright-section bg-blue ">
+            <div class="container py-5 ">
+                <div class="row flex-column flex-lg-row justify-content-center align-items-center row-gap-4 ">
+                    <div class="col-12 col-lg-5">
+                        <h3 class="text-white fw-semibold fs-20">2024 All Rights Reserved © BunnyWay d.o.o.</h3>
+                    </div>
+                    <div class=" col-12 col-lg-6">
+                        <div
+                            class="copyright-links d-flex flex-wrap align-items-center justify-content-center column-gap-2 ">
+
+                            <a href="" class="text-white fs-15"><span>Terms Of Service</span></a>
+                            <a href="" class="text-white fs-15"><span>Acceptable Use</span></a>
+                            <a href="" class="text-white fs-15"><span>GDPR</span></a>
+                            <a href="" class="text-white fs-15"><span> Privacy & Data Policy</span></a>
+                            <a href="" class="text-white fs-15"><span>Report Abuse</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

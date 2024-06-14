@@ -1,0 +1,557 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background: linear-gradient(0deg, #e1f2ff, #e5f4ff 41.32%, #fff);
+}
+
+/* font-size and weight */
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.fs-54 {
+    font-size: 54px;
+}
+
+/* padding and  margin */
+.py-11 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.py-20 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.mx-28 {
+    margin-left: 85px;
+}
+
+.mx-31 {
+    margin-left: 277px;
+}
+
+.mx-39 {
+    margin-left: 315px;
+}
+
+.mt-70 {
+    margin-top: 700px;
+}
+
+.h-22 {
+    height: 22px;
+}
+
+/* buttons */
+.btn-primary {
+    background: linear-gradient(85.19deg, #ff2a64 -133.27%, #ffaf48 105.93%);
+    border: 0;
+    padding: 20px 32px;
+
+}
+
+.btn {
+    padding: 30px 28px 15px 30px;
+}
+
+.btn-blue {
+    background-color: #051e38;
+}
+
+.btn-blue:hover {
+    background-color: #051e38;
+}
+
+/* headings and paragraph */
+h1 {
+    font-size: 54px;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* background and colors */
+.text-skyblue {
+    color: #5ba8d3;
+}
+
+.text-lightprimary {
+    color: #8BB3DA;
+}
+
+.bg-blue {
+    background-color: #051e38;
+}
+
+.text-blue {
+    color: #183D6D;
+}
+
+.text-yellow {
+    color: #ffaf48;
+}
+
+.bg-yellow {
+    background: #ffaf48;
+}
+
+.bgradient-skyblue {
+
+    background: linear-gradient(0deg, #e1f2ff, #e5f4ff 41.32%, #fff);
+}
+
+/* navbar */
+.navbar {
+    background: transparent;
+    transition: all 0.25s ease-in;
+}
+
+.navbar.scrolled {
+    background: #051e38;
+}
+
+.nav-button .btn {
+    padding: 9px 20px 8px;
+}
+
+/* hero-section */
+.hero-section {
+    background: url(/assets/images/hero-section-bg.webp) center center / cover;
+}
+
+/* rated-section */
+.rated-section {
+    background: rgba(0, 0, 0, .3) !important; 
+    bottom: 150px;
+
+}
+.rated-section .container{
+    padding: 24px 32px;    
+}
+/* brands-section */
+.brands-section h2:after {
+    background: linear-gradient(85.19deg, #ff2a64 -133.27%, #ffaf48 105.93%);
+    border-radius: 6px;
+    content: "";
+    display: block;
+    height: 7px;
+    width: 100%;
+}
+
+.logo-wrapper {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    transition: 0.25s all ease-in;
+    cursor: pointer;
+}
+
+.logo-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-90 {
+    width: 90px;
+}
+
+/* edge section */
+
+
+.edge-section .card {
+    padding: 18px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 6px 40px rgba(0, 0, 0, .04);
+    z-index: 4;
+}
+
+.edge-section .card:hover h4 {
+    color: #ffaf48;
+}
+
+.edge-section .card:hover {
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+}
+
+.edge-section .image-wrapper img {
+    width: 60px;
+}
+
+.edge-section .background-image {
+    top: 300px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.edge-section .first-row {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+.edge-section .seceond-row {
+    position: absolute;
+    top: 480px;
+    left: 47px;
+}
+
+.edge-section .third-row {
+    position: absolute;
+    top: 670px;
+    left: 100px;
+}
+
+/* value section */
+.value-section .card:before {
+    background-color: #d3e2f1;
+    content: "";
+    display: block;
+    height: 80px;
+    left: -26px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+}
+
+.value-section .card::after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transition: width .3s ease 0s, left .3s ease 0s;
+    background-color: #ff7854;
+}
+
+.value-section .card:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* speed section */
+.speed-section img {
+    bottom: -120px;
+    right: 66px;
+    width: 544px;
+    position: absolute;
+}
+
+/* Perofmance section */
+.perfomance-section .card {
+    box-shadow: 0 6px 40px rgba(0, 0, 0, .05);
+}
+
+/* happy customer section  */
+.happy-customer-section .card {
+    max-width: 345px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.happy-customer-section .card:hover {
+    transform: scale(1.03);
+}
+
+.happy-customer-section .card-container {
+    overflow: hidden;
+}
+
+.happy-customer-section .card-wrapper {
+    animation: move 300s linear infinite;
+
+
+}
+
+.happy-customer-section .card-wrapper:last-child {
+    animation: move-right 30s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(3%);
+    }
+
+    100% {
+        transform: translate(-50%);
+    }
+}
+
+
+@keyframes move-right {
+    0% {
+        transform: translate(-10%);
+    }
+
+    100% {
+        transform: translate(0%);
+    }
+}
+
+/* Supercharge section */
+.supercharge-section .nav-tabs {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff 51.15%, hsla(0, 0%, 100%, 0));
+
+}
+
+.supercharge-section .nav-link {
+    padding: 28px 16px 24px;
+    border-bottom: 4px transparent;
+    border: 4px transparent;
+    transition: all 0.2s ease-in;
+    white-space: nowrap;
+
+}
+
+.supercharge-section .nav-link:hover {
+    border-bottom: 4px solid #ffaf48;
+
+}
+
+.supercharge-section .nav-link.active {
+    border-bottom: 4px solid #ffaf48;
+}
+
+/* Trial section */
+.trial-section {
+    background: #051e38 url(/assets/images/trial-section-background.svg) no-repeat center bottom -100px;
+
+}
+
+/* footer */
+footer {
+    background: linear-gradient(180deg, #e1f2ff, #e5f4ff 41.32%, #fff);
+    position: relative;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer .icon:hover {
+    opacity: .8;
+}
+
+footer .slogan {
+    color: #032430;
+}
+
+.bunny-image {
+    z-index: 1;
+}
+
+.copyright-section {
+    top: 85px;
+    background-color: #022f58;
+}
+
+.copyright-section .copyright-links a {
+    text-decoration: none;
+}
+
+footer .copyright-section .copyright-links a span:hover {
+    text-decoration: underline;
+}
+
+footer .copyright-section .copyright-links a::after {
+    content: "-";
+    margin-left: 10px;
+    color: white;
+
+}
+
+@media screen and (max-width:991.98px) {
+    .speed-section img {
+        bottom: 33px;
+        left: 30px;
+        position:relative;
+    }
+    .edge-section .first-row {
+        position: relative;
+    }
+    
+    .edge-section .seceond-row {
+        position: relative;
+
+    }
+    
+    .edge-section .third-row {
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width:767.98px) {
+    h1{
+        font-size: 30px;
+    }
+    .fs-18 {
+        font-size: 16px;
+    }
+
+    .fs-20 {
+        font-size: 18px;
+    }
+
+    .fs-24 {
+        font-size: 20px;
+    }
+
+    .fs-30 {
+        font-size: 26px;
+    }
+
+    .fs-45 {
+        font-size: 34px;
+    }
+
+    .fs-54 {
+        font-size: 30px;
+    }
+
+    .w-200 {
+        width: 120px;
+    }
+
+    .mx-28 {
+        margin: 0;
+    }
+
+    .mx-31 {
+        margin: 0;
+    }
+
+    .mt-70 {
+        margin-top: 80px;
+    }
+
+    .mx-39 {
+        margin: 0;
+    }
+
+    .py-11 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+.btn-primary{
+    padding: 20px 25px;
+}
+    .edge-section .first-row {
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+
+    .edge-section .seceond-row {
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+
+    .edge-section .third-row {
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+
+    .value-section .bg-lg-transparent {
+        background-color: #ffff;
+    }
+
+    .speed-section img {
+        position: relative;
+        bottom: 20px;
+        right: 0;
+        left: 30px;
+    }
+    .rated-section {
+        bottom: 115px;
+    
+    }
+    .happy-customer-section .card-container {
+        overflow: scroll;
+    }
+
+    .happy-customer-section .card-wrapper {
+        animation: none;
+
+    }
+
+    .Supercharge-section .box {
+        background: white;
+    }
+
+    .Supercharge-section .btn {
+        padding: 15px 28px 15px 30px;
+    }
+
+    .bunny-image {
+        display: none;
+    }
+
+    footer .fs-30 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .py-11 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
